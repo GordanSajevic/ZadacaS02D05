@@ -13,7 +13,7 @@ public class Pravougaonik {
 		/* stranica a */
 		
 		System.out.print("+");
-		for (int i=0; i<a; i++)
+		for (int i=0; i<a-2; i++)
 		{
 			System.out.print("-");
 		}
@@ -21,10 +21,10 @@ public class Pravougaonik {
 		
 		/* stranice b */
 
-		for (int i=0; i<b; i++)
+		for (int i=0; i<b-2; i++)
 		{
 			System.out.print("|");
-			for (int j=0; j<a; j++)
+			for (int j=0; j<a-2; j++)
 			{
 				System.out.print(" ");
 			}
@@ -34,7 +34,7 @@ public class Pravougaonik {
 		/* opet stranica a */
 		
 		System.out.print("+");
-		for (int i=0; i<a; i++)
+		for (int i=0; i<a-2; i++)
 		{
 			System.out.print("-");
 		}
