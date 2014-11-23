@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+
+public class DvijeFirme {
+
+	public static void main(String[] args) {
+		Scanner unos = new Scanner(System.in);
+		System.out.println("Unesite broj sati: ");
+		double brojSati = unos.nextDouble();
+		double firma1 = 10 + 0.5 * brojSati;
+		double firma2 = 0.8 * brojSati;
+		if (firma1 < firma2)
+		{
+			System.out.println("Isplativija je prva firma.");
+		}
+		else if (firma2 < firma1)
+		{
+			System.out.println("Isplativija je druga firma.");
+		}
+		else
+		{
+			System.out.println("Obje firme su jednako isplative.");
+		}
+		
+	}
+
+}
