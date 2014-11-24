@@ -2,6 +2,13 @@ import java.util.Scanner;
 
 
 public class BrojBezNula {
+	
+	/**
+	 * Funkcija izbacuje nule iz broja, ali vraća broj u obrnutom redoslijedu cifara
+	 * @param br
+	 * @return brojObrnuto
+	 */
+	
 	public static int BezNulaObrnuto(int br)
 	{
 		int brojObrnuto = 0;
@@ -15,6 +22,12 @@ public class BrojBezNula {
 		}
 		return brojObrnuto;
 	}
+	
+	/**
+	 * Funkcija vraća broj u obrnutom redoslijedu cifara
+	 * @param br
+	 * @return rezultat
+	 */
 	
 	public static int BezNula(int br)
 	{
